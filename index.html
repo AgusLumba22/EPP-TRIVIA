@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cuestionario EPP - Con Feedback</title>
+    <link rel="stylesheet" href="css/style.css"
+  </head>
+  <body>
+    <div class="cuestionario">
+      <h1>Cuestionario sobre Elementos de Protección Personal (EPP)</h1>
+      <form id="formEPP" onsubmit="return false">
+        <!-- Pregunta 1 -->
+        <div class="pregunta">
+          <p>
+            1. ¿Cuál es la función principal de los EPP en el ámbito laboral?
+          </p>
+          <label
+            ><input type="radio" name="p1" value="correcta" /> Proteger contra
+            riesgos cuando las medidas colectivas no son suficientes</label
+          ><br />
+          <label
+            ><input type="radio" name="p1" value="a" /> Mejorar la estética del
+            uniforme laboral</label
+          ><br />
+          <label
+            ><input type="radio" name="p1" value="b" /> Aumentar la
+            productividad de los empleados</label
+          ><br />
+          <label
+            ><input type="radio" name="p1" value="c" /> Identificar al personal
+            por colores</label
+          ><br />
+          <div class="feedback" id="fb1"></div>
+        </div>
+
+        <!-- Pregunta 2 -->
+        <div class="pregunta">
+          <p>2. ¿Qué tipo de protección proporciona un casco de seguridad?</p>
+          <label
+            ><input type="radio" name="p2" value="a" /> Protección solar </label
+          ><br />
+          <label
+            ><input type="radio" name="p2" value="b" /> Protección contra el
+            frío</label
+          ><br />
+          <label
+            ><input type="radio" name="p2" value="correcta" /> Protección contra
+            impactos en la cabeza</label
+          ><br />
+          <label
+            ><input type="radio" name="p2" value="c" /> Protección visual</label
+          ><br />
+          <div class="feedback" id="fb2"></div>
+        </div>
+
+        <!-- Pregunta 3 -->
+        <div class="pregunta">
+          <p>3. ¿Cuál de los siguientes NO es un EPP?</p>
+          <label
+            ><input type="radio" name="p3" value="c" /> Gafas de
+            proteccion</label
+          ><br />
+          <label
+            ><input type="radio" name="p3" value="a" /> Guantes de
+            seguridad</label
+          ><br />
+          <label><input type="radio" name="p3" value="b" /> Mascarilla</label
+          ><br />
+          <label
+            ><input type="radio" name="p3" value="correcta" /> Reloj de
+            pulsera</label
+          ><br />
+          <div class="feedback" id="fb3"></div>
+        </div>
+
+        <!-- Pregunta 4 -->
+        <div class="pregunta">
+          <p>4. ¿Quién debe proporcionar los EPP?</p>
+          <label
+            ><input type="radio" name="p4" value="a" />El propio
+            trabajador</label
+          ><br />
+          <label
+            ><input type="radio" name="p4" value="correcta" /> El
+            empleador</label
+          ><br />
+          <label><input type="radio" name="p4" value="b" /> El sindicato</label
+          ><br />
+          <label
+            ><input type="radio" name="p4" value="c" /> La obra social</label
+          ><br />
+          <div class="feedback" id="fb4"></div>
+        </div>
+
+        <!-- Pregunta 5 -->
+        <div class="pregunta">
+          <p>
+            5. ¿Cuál es la característica principal de los guantes de seguridad?
+          </p>
+          <label
+            ><input type="radio" name="p5" value="correcta" /> Proteger manos
+            contra cortes, químicos o calor</label
+          ><br />
+          <label
+            ><input type="radio" name="p5" value="a" /> Mejorar el agarre del
+            mouse</label
+          ><br />
+          <label
+            ><input type="radio" name="p5" value="b" /> Reforzar la fuerza en
+            las manos</label
+          ><br />
+          <label
+            ><input type="radio" name="p5" value="c" /> Para lucir
+            profesional</label
+          ><br />
+          <div class="feedback" id="fb5"></div>
+        </div>
+
+        <!-- Pregunta 6 -->
+        <div class="pregunta">
+          <p>
+            6. ¿Qué EPP se utiliza para proteger los ojos de salpicaduras
+            químicas?
+          </p>
+          <label
+            ><input type="radio" name="p6" value="c" /> chaleco
+            reflectante</label
+          ><br />
+          <label><input type="radio" name="p6" value="a" /> Mascarilla</label
+          ><br />
+          <label><input type="radio" name="p6" value="b" /> Casco</label><br />
+          <label
+            ><input type="radio" name="p6" value="correcta" /> Gafas de
+            seguridad</label
+          ><br />
+          <div class="feedback" id="fb6"></div>
+        </div>
+
+        <!-- Pregunta 7 -->
+        <div class="pregunta">
+          <p>7. ¿Cuál de estos EPP es obligatorio en zonas de alto ruido?</p>
+          <label><input type="radio" name="p7" value="a" /> Guantes</label
+          ><br />
+          <label
+            ><input type="radio" name="p7" value="correcta" /> Protectores
+            auditivos</label
+          ><br />
+          <label
+            ><input type="radio" name="p7" value="b" /> Cinturón de
+            seguridad</label
+          ><br />
+          <label
+            ><input type="radio" name="p7" value="c" /> Lentes oscuros</label
+          ><br />
+          <div class="feedback" id="fb7"></div>
+        </div>
+
+        <!-- Pregunta 8 -->
+        <div class="pregunta">
+          <p>8. ¿Qué indica la señalización sobre el uso obligatorio de EPP?</p>
+          <label
+            ><input type="radio" name="p8" value="b" /> Que el EPP esta en
+            revisión</label
+          ><br />
+          <label
+            ><input type="radio" name="p8" value="a" /> Que el trabajador puede
+            decidir si usarlo</label
+          ><br />
+          <label
+            ><input type="radio" name="p8" value="correcta" /> Que el uso del
+            equipo es obligatorio por normativa</label
+          ><br />
+          <label
+            ><input type="radio" name="p8" value="c" /> Solo aplicable en horas
+            pico</label
+          ><br />
+          <div class="feedback" id="fb8"></div>
+        </div>
+
+        <!-- Pregunta 9 -->
+        <div class="pregunta">
+          <p>9. ¿Cuál es el paso más importante al usar un EPP?</p>
+          <label
+            ><input type="radio" name="p9" value="a" /> Elegir el que sea mas
+            cómodo</label
+          ><br />
+          <label
+            ><input type="radio" name="p9" value="correcta" /> Usarlo
+            correctamente según las instrucciones</label
+          ><br />
+          <label
+            ><input type="radio" name="p9" value="b" /> Usarlo solo frente al
+            supervisor</label
+          ><br />
+          <label
+            ><input type="radio" name="p9" value="c" /> Pedirlo prestado a un
+            compañero</label
+          ><br />
+          <div class="feedback" id="fb9"></div>
+        </div>
+
+        <!-- Pregunta 10 -->
+        <div class="pregunta">
+          <p>10. ¿Qué acción debe tomar un trabajador si su EPP está dañado?</p>
+          <label
+            ><input type="radio" name="p10" value="c" /> Guardarlo y no
+            informar</label
+          ><br />
+          <label
+            ><input type="radio" name="p10" value="a" /> Seguir usándolo hasta
+            que se rompa</label
+          ><br />
+          <label
+            ><input type="radio" name="p10" value="b" /> Repararlo por su
+            cuenta</label
+          ><br />
+          <label
+            ><input type="radio" name="p10" value="correcta" /> Informarlo y
+            pedir su reemplazo inmediato</label
+          ><br />
+          <div class="feedback" id="fb10"></div>
+        </div>
+
+        <button onclick="verificarRespuestas()">Comprobar respuestas</button>
+        <div
+          id="resultadoFinal"
+          style="margin-top: 20px; font-weight: bold"
+        ></div>
+      </form>
+    </div>
+
+    <script>
+      function verificarRespuestas() {
+        let correctas = 0;
+        for (let i = 1; i <= 10; i++) {
+          const r = document.querySelector(`input[name="p${i}"]:checked`);
+          const fb = document.getElementById(`fb${i}`);
+          if (r) {
+            if (r.value === "correcta") {
+              fb.textContent = "✔️ Correcto";
+              fb.className = "feedback correcto";
+              correctas++;
+            } else {
+              fb.textContent = "❌ Incorrecto.";
+              fb.className = "feedback incorrecto";
+            }
+          } else {
+            fb.textContent = "❌ No respondiste esta pregunta.";
+            fb.className = "feedback incorrecto";
+          }
+        }
+        document.getElementById(
+          "resultadoFinal"
+        ).textContent = `Respuestas correctas: ${correctas} de 10`;
+      }
+    </script>
+  </body>
+</html>
